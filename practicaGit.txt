@@ -1,0 +1,17 @@
+1. git init
+2. git pull Grupo60
+3. git checkout Grupo60
+4. git add .
+5. git commit -m "Commit Luis Londoño"
+6. git push --set-upstream origin Grupo60
+
+Nota: si les sale el error "$ git push --set-upstream origin Grupo60
+To https://github.com/luispipe/EjemploGit.git
+ ! [rejected]        Grupo60 -> Grupo60 (fetch first)
+error: failed to push some refs to 'https://github.com/luispipe/EjemploGit.git'"
+Significa que un compañero intento hacer la sincronización al mismo tiempo,
+por lo que debe cerrar el git bash y volverlo abrir y hacer el proceso desde el paso
+
+1. git init
+2. git pull Grupo60
+6. git push --set-upstream origin Grupo60

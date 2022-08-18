@@ -21,4 +21,4 @@ Crear una rama de trabajo:
 	git checkout -b Grupo60 --> crea la rama y nos ubica ella
 Para ubicarse en una rama -->
 	git checkout Grupo59
-	git checkout origin main
+	git checkout main
