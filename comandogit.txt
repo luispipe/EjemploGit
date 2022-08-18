@@ -1,0 +1,55 @@
+Primera vez que instalo git, hacer:
+configuración de mail y username
+
+	git config --global user.name "username" --> username de github
+	git config --global user.email "email" --> correo de github
+
+-Este paso solo se hace 1 vez por proyecto: clonación del repositorio
+	git clone URL --> la URL repositorio
+
+-Los siguientes pasos se reputen siempre que vayan a hacer
+
+	1. Inicializan el repositorio
+		git init
+	2. Traer cambios del repositorio (saltarse al principio)
+		git pull origin master / origin main
+	3. Traer cambios que yo hice en mi equipo
+		git add .
+	4. Preparo los cambios
+		git commit -m "Commit del estudiante X"
+	5. Cargar los cambios al  repositorio de gitHub
+		git push -u origin main
+
+Crear una rama de trabajo:
+	git branch Grupo59 --> crea la rama pero no me ubica ella
+	git checkout -b Grupo60 --> crea la rama y nos ubica en ella
+
+Para ubicarse en una rama -->
+	git checkout Grupo59
+	git checkout main
+
+
+--set-upstream origin Grupo59
+$ git pull origin Grupo60 --> traer información
+
+
+Mision TIC Programacion 821:15
+1. git init
+2. git pull Grupo60
+3. git checkout Grupo60
+4. git add .
+5. git commit -m "Commit Luis Londoño"
+6. git push --set-upstream origin Grupo60
+Nota: si les sale el error "$ git push --set-upstream origin Grupo60
+To https://github.com/luispipe/EjemploGit.git
+ ! [rejected]        Grupo60 -> Grupo60 (fetch first)
+error: failed to push some refs to 'https://github.com/luispipe/EjemploGit.git'"
+Significa que un compañero intento hacer la sincronización al mismo tiempo,
+por lo que debe cerrar el git bash y volverlo abrir y hacer el proceso desde el paso
+
+1. git init
+2. git pull Grupo60
+6. git push --set-upstream origin Grupo60
+
+
+
