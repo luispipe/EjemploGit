@@ -1,0 +1,32 @@
+Primera vez que instalo git, hacer:
+configuración de mail y username
+
+	git config --global user.name "username" --> username de github
+	git config --global user.email "email" --> correo de github
+
+-Este paso solo se hace 1 vez por proyecto: clonación del repositorio
+	git clone URL --> la URL repositorio
+
+-Los siguientes pasos se reputen siempre que vayan a hacer
+
+	1. Inicializan el repositorio
+		git init
+	2. Traer cambios del repositorio
+		git pull origin master / origin main
+	3. Traer cambios que yo hice en mi equipo
+		git add .
+	4. Preparo los cambios
+		git commit -m "Commit del estudiante X"
+	5. Cargar los cambios al  repositorio de gitHub
+		git push -u origin main
+
+Crear una rama de trabajo:
+	git branch Grupo59 --> crea la rama pero no me ubica ella
+	git checkout -b Grupo60 --> crea la rama y nos ubica en ella
+
+Para ubicarse en una rama -->
+	git checkout Grupo59
+	git checkout origin main
+
+
+
